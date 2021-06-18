@@ -1,7 +1,7 @@
 app:
     name: WebDav
     code: WEBDAV
-    notify: aborra@ecloudcontrol.com
+    notify: eachakala@ecloudcontrol.com
     
 build:
     version: 2.0
@@ -11,7 +11,7 @@ build:
     image_template: webdav-2.0
     
 deploy:
-    context: anushab7/DEV
+    context: eeshaachakala1/DEV
     type: statefulset
     replicas: 1
     port:
